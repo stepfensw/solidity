@@ -1,0 +1,158 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					}
+				],
+				"name": "AddedBlackList",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					}
+				],
+				"name": "RemovedBlackList",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_evilUser",
+						"type": "address"
+					}
+				],
+				"name": "addBlackList",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "isBlackListed",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_clearedUser",
+						"type": "address"
+					}
+				],
+				"name": "removeBlackList",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"transferOwnership(address)": {
+					"details": "Allows the current owner to transfer control of the contract to a newOwner.",
+					"params": {
+						"newOwner": "The address to transfer ownership to."
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/base/BlackList.sol": "BlackList"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/base/BlackList.sol": {
+			"keccak256": "0x304a377e5b42d2ea28a73fb7c62e0e459141b2cd974061fa55b510100b37d7c9",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://69dbd3801392ee49eccbf9d95acae1288e2099529cfc4c0e0af32c59b1e53ea6",
+				"dweb:/ipfs/QmZvuT2VGjf9KmR5qw6kbfjUUhQcF8jNqkQa6g8oYwtk55"
+			]
+		},
+		"contract/base/Owner.sol": {
+			"keccak256": "0x535a17f58a718e4089a6e99b251e12d697c430b2327dfcd4c8f4a5081e66973f",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://52e05d42456d82c610429b577e4404dadd68a2650b9de191792054deaefbf183",
+				"dweb:/ipfs/QmTma8bKiffrut6ce35cQNYqoktUQunKTUbhnd8VaP73Yy"
+			]
+		}
+	},
+	"version": 1
+}

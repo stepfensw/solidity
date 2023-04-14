@@ -1,0 +1,110 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "oldAddr",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "newAddr",
+						"type": "address"
+					}
+				],
+				"name": "ChangeOwner",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "changeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "outAmount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/Recive.sol": "Receiveable"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/Owner.sol": {
+			"keccak256": "0x7059430c0565e56b6e93eb7b4b4246224071e2f4c5937c6fc7a152dd5c959f18",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://ad2b0bb2cb38347799fe535e1bf1b570f0ed12f5ef443298b313d0df41440838",
+				"dweb:/ipfs/QmZ7zBgcGfVbv5G7Ms3Yjc65ixAjefkvBVmMgmWuBfcfHQ"
+			]
+		},
+		"contract/Recive.sol": {
+			"keccak256": "0x8f6c72d4738d6bc709c15eafda35ad96b6a9146f76640477e42afb369cff4984",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://0b76138ed890b1d20719b77082c38bd30f9dd80b292c78fa0baef10afa293352",
+				"dweb:/ipfs/QmNzKZGPupka42ZkhAF6vNYkcCj2W2VK2oSpeHTKHDKMTT"
+			]
+		}
+	},
+	"version": 1
+}

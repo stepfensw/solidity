@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "canOut",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "outAmount",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pledge",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/base/interface/PledgeInterface.sol": "PledgeInterface"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/base/interface/PledgeInterface.sol": {
+			"keccak256": "0xf9a397e52a9c2149f92f969f277d9ccb42b136b779d8bf1044b79924f3f17a89",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://29c3d4b115a6b925005fc39737676935e93c7543f560f9c47467d5f968f126a6",
+				"dweb:/ipfs/QmXEdrgbUV7T4iACLrpC1oHx4K7BDsy3xPnQk73uy1JMN8"
+			]
+		}
+	},
+	"version": 1
+}

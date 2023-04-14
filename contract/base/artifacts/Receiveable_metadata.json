@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "outAmount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"transferOwnership(address)": {
+					"details": "Allows the current owner to transfer control of the contract to a newOwner.",
+					"params": {
+						"newOwner": "The address to transfer ownership to."
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/base/Recive.sol": "Receiveable"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/base/Ownable.sol": {
+			"keccak256": "0x535a17f58a718e4089a6e99b251e12d697c430b2327dfcd4c8f4a5081e66973f",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://52e05d42456d82c610429b577e4404dadd68a2650b9de191792054deaefbf183",
+				"dweb:/ipfs/QmTma8bKiffrut6ce35cQNYqoktUQunKTUbhnd8VaP73Yy"
+			]
+		},
+		"contract/base/Recive.sol": {
+			"keccak256": "0xd4d382735671e43c25abc1a32e881580998e3e0b5cfbf76bccb3f213d7d695ec",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://73ac59c80bf4fdccf88b2c47263b23a2b1161938d022931cbce8b4e640eba072",
+				"dweb:/ipfs/QmbbU2Ajynoayw26Ad9Dz7WFm7G1Ezb5RnK7ZhugziWmgS"
+			]
+		}
+	},
+	"version": 1
+}

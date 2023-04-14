@@ -1,0 +1,130 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "own",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "canOut",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "outAmount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"transferOwnership(address)": {
+					"details": "Allows the current owner to transfer control of the contract to a newOwner.",
+					"params": {
+						"newOwner": "The address to transfer ownership to."
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/base/Time.sol": "TestContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/base/Ownable.sol": {
+			"keccak256": "0x535a17f58a718e4089a6e99b251e12d697c430b2327dfcd4c8f4a5081e66973f",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://52e05d42456d82c610429b577e4404dadd68a2650b9de191792054deaefbf183",
+				"dweb:/ipfs/QmTma8bKiffrut6ce35cQNYqoktUQunKTUbhnd8VaP73Yy"
+			]
+		},
+		"contract/base/Time.sol": {
+			"keccak256": "0x78a7120f8bc358c2c60cd73b7b531d70a88df6e334011161f9d4e0b6b20caa11",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://b95ca16683a97934c53cfc99564be349343f2ac8b8ec4ebef634820f65480d65",
+				"dweb:/ipfs/QmeVV1XjqrsrabBeLfY76DaDbRiphUAs6rwk1CRwu5TpL1"
+			]
+		}
+	},
+	"version": 1
+}
